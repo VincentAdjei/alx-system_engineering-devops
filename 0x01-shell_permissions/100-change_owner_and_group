@@ -1,2 +1,4 @@
 #!/bin/bash
-chown vincent:staff*
+OWNER=vincent
+GROUP=staff
+chown $OWNER:GROUP *
